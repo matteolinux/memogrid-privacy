@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Privacy Policy - MemoGrid</title>
+    <script>
+        // Detect browser language
+        const userLang = navigator.language || navigator.userLanguage;
+        
+        // Redirect to appropriate page
+        if (userLang.startsWith('it')) {
+            window.location.href = '/memogrid-privacy/it/index.html';
+        } else {
+            window.location.href = '/memogrid-privacy/en/index.html';
+        }
+    </script>
+    <style>
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Arial, sans-serif;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            height: 100vh;
+            margin: 0;
+            background: #f5f5f7;
+        }
+        .container {
+            text-align: center;
+        }
+        h1 { color: #1A1D2E; }
+        a {
+            color: #007AFF;
+            text-decoration: none;
+            margin: 0 15px;
+            font-size: 1.2em;
+        }
+        a:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Privacy Policy - MemoGrid</h1>
+        <p>Choose your language / Scegli la lingua:</p>
+        <a href="/memogrid-privacy/en/index.html">🇬🇧 English</a>
+        <a href="/memogrid-privacy/it/index.html">🇮🇹 Italiano</a>
+    </div>
+</body>
+</html>
